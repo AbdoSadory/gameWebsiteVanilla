@@ -2,7 +2,7 @@
   --black: #111;
   --dark-gray: #282828;
   --gray: gray;
-  --light-gray: rgb(236, 232, 225);
+  --light-gray: #ece8e1;
   --red-gradient: linear-gradient(
     135deg,
     rgb(255, 51, 66) 0%,
@@ -11,7 +11,10 @@
   );
   --red: #ff4655;
 }
-
+@font-face {
+  font-family: "MavenPro";
+  src: url(fonts/MavenPro-VariableFont_wght.ttf);
+}
 html,
 body {
   padding: 0;
@@ -37,4 +40,10 @@ a:hover {
 }
 .red-gradient-background {
   background: var(--red-gradient);
+}
+.main_container {
+  width: 80%;
+  margin: auto;
+  border-left: 1px solid rgba(236, 232, 225, 0.4);
+  border-right: 1px solid rgba(236, 232, 225, 0.4);
 }
