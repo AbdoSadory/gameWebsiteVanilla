@@ -517,6 +517,102 @@
 }
 
 /* ///////////////////////////////////////////////////// */
+.agents_section {
+  position: relative;
+  background-color: var(--red);
+  background-image: url(images/bgofagents2.png);
+}
+.agents_section::before {
+  content: "";
+  position: absolute;
+  top: -23px;
+  left: -26px;
+  width: 170px;
+  height: 84px;
+  background-color: var(--red);
+  transform: rotate(15deg);
+}
+.agents_section_top_bg {
+  position: absolute;
+  height: 15px;
+  top: 80px;
+  width: 100%;
+  background-image: url(images/bgofagents.png);
+}
+.agents_section .main_container {
+  position: relative;
+  padding: 100px 0px;
+  border-left-color: var(--light-gray);
+  border-right-color: transparent;
+  z-index: 2;
+}
+
+.agents_section_left_image {
+  position: absolute;
+  bottom: 10%;
+  left: 70px;
+}
+.agents_section_right_content {
+  padding: 45px 0px;
+  border-top: 2px solid var(--light-gray);
+}
+.agents_section_header {
+  font-family: "Tungsten-Bold";
+  font-size: 135px;
+  line-height: 100px;
+  color: var(--light-gray);
+}
+.agents_section_title {
+  color: var(--light-gray);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 35px 0;
+}
+.agents_section_para {
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: var(--light-gray);
+}
+.agents_section_content_agents_container .btn_border {
+  margin: unset;
+  margin-left: auto;
+}
+.agents_section_content_agents_container .primary_btn {
+  background: var(--light-gray);
+  color: var(--black);
+  padding: 17px 80px;
+}
+.agents_section_content_agents_container .primary_btn:hover {
+  color: var(--light-gray);
+}
 /* ///////////////////////////////////////////////////// */
+.maps_section {
+  position: relative;
+}
+.maps_section_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+  color: var(--light-gray);
+  text-shadow: 0 0 3px #000;
+  background-color: transparent;
+  font-size: 25rem;
+  text-align: center;
+  font-weight: bolder;
+  opacity: 0.2;
+  line-height: 235px;
+}
+.maps_section .main_container {
+  position: relative;
+  padding: 100px 0px;
+  border-left-color: var(--gray);
+  border-right-color: transparent;
+  z-index: 2;
+}
+.maps_section_header {
+}
 /* ///////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////// */

@@ -8,3 +8,12 @@ var swiper = new Swiper(".mySwiper", {
     clickable: false,
   },
 });
+const agents_section_left_image = document.getElementById(
+  "agents_section_left_image"
+);
+// window.addEventListener("scroll", () => {
+//   console.log(window.scrollY);
+//   window.scrollY = 1500
+//     ? (agents_section_left_image.style.top = "0")
+//     : console.log(window.scrollY);
+// });
