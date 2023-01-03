@@ -1,5 +1,6 @@
 :root {
   --black: #111;
+  --light-black: #0f1923;
   --dark-gray: #282828;
   --gray: gray;
   --light-gray: #ece8e1;
@@ -15,6 +16,31 @@
   font-family: "MavenPro";
   src: url(fonts/MavenPro-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: "Tungsten-Black";
+  src: url(fonts/Tungsten-Black.otf);
+}
+@font-face {
+  font-family: "Tungsten-Bold";
+  src: url(fonts/Tungsten-Bold.otf);
+}
+@font-face {
+  font-family: "Tungsten-light";
+  src: url(fonts/Tungsten-Light.otf);
+}
+@font-face {
+  font-family: "Tungsten-Medium";
+  src: url(fonts/Tungsten-Medium.otf);
+}
+@font-face {
+  font-family: "Tungsten-Semibold";
+  src: url(fonts/Tungsten-Semibold.otf);
+}
+@font-face {
+  font-family: "Tungsten-Thin";
+  src: url(fonts/Tungsten-Thin.otf);
+}
+
 html,
 body {
   padding: 0;
