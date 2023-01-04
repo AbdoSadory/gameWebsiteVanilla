@@ -588,7 +588,13 @@
 /* ///////////////////////////////////////////////////// */
 .maps_section {
   position: relative;
+  background-image: url(images/bgofagents2.png);
+  background-color: var(--light-gray);
+  background-repeat: repeat-y;
+  background-position: -11% -14%;
+  z-index: 1;
 }
+
 .maps_section_bg {
   position: absolute;
   top: 0;
@@ -596,23 +602,73 @@
   right: 0;
   width: 100%;
   z-index: -1;
-  color: var(--light-gray);
+  color: #dbd8d2;
   text-shadow: 0 0 3px #000;
-  background-color: transparent;
+  background-color: #dbd8d2;
   font-size: 25rem;
   text-align: center;
   font-weight: bolder;
   opacity: 0.2;
   line-height: 235px;
 }
-.maps_section .main_container {
-  position: relative;
-  padding: 100px 0px;
-  border-left-color: var(--gray);
-  border-right-color: transparent;
+.maps_section_bg_2 {
+  position: absolute;
+  top: -93px;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  overflow: hidden;
+  text-align: end;
   z-index: 2;
 }
+
+.maps_section_bg_2_image {
+  width: 100%;
+}
+.maps_section_bg_3 {
+  width: fit-content;
+  position: absolute;
+  top: 77px;
+  left: 40%;
+}
+.maps_section .main_container {
+  position: relative;
+  padding: 112px 0px;
+  border-left-color: var(--gray);
+  border-right-color: transparent;
+  z-index: 10;
+}
+.maps_section_left_content {
+  position: relative;
+  z-index: 3;
+  width: 40%;
+  margin-left: 110px;
+  border-top: 1px solid var(--light-black);
+  padding-top: 55px;
+}
 .maps_section_header {
+  font-family: "Tungsten-Bold";
+  font-size: 135px;
+  line-height: 100px;
+  color: var(--black);
+}
+.maps_section_title {
+  color: var(--light-black);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 35px 0;
+}
+.maps_section_para {
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: var(--gray);
+}
+.maps_section_content_maps_container .btn_border {
+  margin: unset;
+  margin-right: auto;
+}
+.maps_section_content_maps_container .primary_btn {
+  padding: 15px 75px;
 }
 /* ///////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////// */
