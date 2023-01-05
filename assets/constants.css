@@ -1,8 +1,8 @@
 :root {
   --black: #111;
   --light-black: #0f1923;
-  --dark-gray: #282828;
-  --gray: gray;
+  --dark-gray: rgb(43, 43, 43);
+  --gray: rgb(178, 178, 178);
   --light-gray: #ece8e1;
   --red-gradient: linear-gradient(
     135deg,
@@ -10,7 +10,7 @@
     rgb(255, 48, 64) 0.01%,
     rgb(255, 125, 102) 100%
   );
-  --red: #ff4655;
+  --red: #c92424;
 }
 @font-face {
   font-family: "MavenPro";
