@@ -730,12 +730,15 @@ header .navbar-brand img {
 .footer_bottom_logos_container {
   padding: 25px;
 }
-.footer_bottom_logos_container a svg {
-  fill: var(--gray);
+.footer_bottom_logos_container a {
+  width: 135px;
+  display: block;
+  margin: auto;
   transition: 0.3s all ease-in-out;
 }
-.footer_bottom_logos_container a:hover svg {
-  fill: white;
+.footer_bottom_logos_container a img {
+  width: 10;
+  width: 100%;
 }
 .footer_bottom_rights_container {
   width: 50%;

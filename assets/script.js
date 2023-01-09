@@ -25,3 +25,18 @@ var swiper = new Swiper(".mySwiper", {
 const agents_section_left_image = document.getElementById(
   "agents_section_left_image"
 );
+// Hiding Title of anchor
+let clearAnchorTitles = document.getElementsByClassName("hide-title");
+let title;
+const hidingAnchorTitle = () => {
+  for (const anchor of clearAnchorTitles) {
+    anchor.addEventListener("mouseover", () => {
+      title = anchor.getAttribute("title");
+      anchor.setAttribute("title", "");
+    });
+    anchor.addEventListener("mouseout", () => {
+      anchor.setAttribute("title", title);
+    });
+  }
+};
+hidingAnchorTitle();
