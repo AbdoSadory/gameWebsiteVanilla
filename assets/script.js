@@ -7,13 +7,21 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: false,
   },
+  breakpoints: {
+    300: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    575: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    991: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
 });
 const agents_section_left_image = document.getElementById(
   "agents_section_left_image"
 );
-// window.addEventListener("scroll", () => {
-//   console.log(window.scrollY);
-//   window.scrollY = 1500
-//     ? (agents_section_left_image.style.top = "0")
-//     : console.log(window.scrollY);
-// });

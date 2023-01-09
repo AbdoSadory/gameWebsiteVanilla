@@ -1,0 +1,456 @@
+@media (max-width: 1200px) {
+  .hero_section_content_playBtn_container .primary_btn {
+    padding: 10px 75px;
+  }
+  header .navbar-brand img {
+    width: 80px;
+  }
+  .hero_section_content_image_container {
+    margin: 35px auto;
+    width: 37%;
+  }
+  .news_section_container_background span {
+    font-size: 9rem;
+  }
+  .weAre_section .main_container {
+    position: relative;
+    z-index: 10;
+  }
+  .weAre_section_header {
+    font-size: 124px;
+  }
+  .weAre_section_content_container {
+    padding: 22px 0px 65px;
+  }
+  .weAre_section_content_btn_container .primary_btn {
+    padding: 18px 54px;
+  }
+  .weAre_section_content_right {
+    margin-left: unset;
+  }
+  .agents_section_content_agents_container .primary_btn {
+    padding: 17px 55px;
+  }
+  .maps_section .main_container {
+    border-right: 0px solid transparent;
+    background: linear-gradient(45deg, var(--light-gray) 17%, transparent 55%);
+  }
+  .maps_section_bg_2 {
+    top: -30px;
+    width: 100%;
+  }
+  .maps_section_bg_3 {
+    width: fit-content;
+    position: absolute;
+    top: 0px;
+    left: 48%;
+  }
+  .maps_section_title {
+    color: var(--light-black);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 991px) {
+  .main_container {
+    width: 90%;
+  }
+  .news_header {
+    top: 0px;
+    font-size: 90px;
+  }
+  .dimension_section {
+    background-position: 47% 16%;
+    background-size: cover;
+  }
+  .dimension_section .main_container {
+    padding: unset;
+    align-items: center;
+  }
+  .dimension_section_content_para {
+    font-size: 20px;
+    letter-spacing: 6px;
+  }
+  .dimension_section_content_header {
+    margin: 20px 0px 25px;
+    font-size: 100px;
+  }
+
+  .dimension_section_content_dimension_container .primary_btn {
+    padding: 10px 70px;
+  }
+  .weAre_section_header {
+    font-size: 100px;
+  }
+  .weAre_section_content_right {
+    margin-left: 0px;
+  }
+  .weAre_section_content_left .weAre_section_content_left_para {
+    margin-bottom: 40px;
+  }
+  .weAre_section_video {
+    width: 100%;
+  }
+  .weAre_section_content_btn_container .btn_border {
+    max-width: fit-content;
+    margin: unset;
+    margin-left: 15px;
+  }
+  .weAre_section_content_btn_container .primary_btn {
+    padding: 10px 70px;
+  }
+  .weAre_section_content_right .boxes {
+    padding: 0px 0px;
+  }
+  .agents_section_header {
+    font-size: 100px;
+    line-height: 72px;
+  }
+  .agents_section_title {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .agents_section_para {
+    margin-bottom: 35px;
+  }
+  .agents_section_content_agents_container .btn_border {
+    margin-left: unset;
+  }
+  .agents_section_content_agents_container .primary_btn {
+    padding: 10px 39px;
+  }
+  .maps_section .main_container {
+    background: linear-gradient(45deg, var(--light-gray) 17%, transparent 45%);
+  }
+  .maps_section_bg_3 {
+    left: 40%;
+  }
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 767px) {
+  .btn_border::before {
+    left: -6px;
+    right: -6px;
+    top: -6px;
+  }
+  .btn_border::after {
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+  }
+
+  .hero_section .video_container {
+    height: 60vw;
+  }
+
+  .hero_section_video {
+    width: 110%;
+    object-position: -48px -49px;
+  }
+  .hero_section_content_image_container {
+    margin: 50px auto;
+    width: 45%;
+  }
+  .hero_section_content_playBtn_container .primary_btn {
+    padding: 4px 40px;
+    font-size: 15px;
+  }
+  .news_section_container_background span {
+    font-size: 8rem;
+  }
+  .news_section::before {
+    left: -52px;
+  }
+  .news_section_container_points {
+    height: 50px;
+  }
+  .news_section_container_header {
+    text-align: unset;
+  }
+  .news_header {
+    position: unset;
+    font-size: 60px;
+  }
+  .news_section_container_content {
+    margin-top: 25px;
+  }
+  .dimension_section_content_para {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .dimension_section_content_header {
+    font-size: 80px;
+    margin: 0px 0px 15px;
+  }
+  .dimension_section_content_dimension_container .primary_btn {
+    padding: 4px 40px;
+    font-size: 15px;
+  }
+  .weAre_section_header {
+    font-size: 124px;
+    line-height: 88px;
+  }
+  .weAre_section_content_btn_container .btn_border {
+    margin-left: unset;
+    margin: auto;
+  }
+  .weAre_section_content_btn_container .primary_btn {
+    padding: 5px 50px;
+  }
+  .weAre_section_content_right {
+    margin-top: 35px;
+  }
+  .agents_section .main_container {
+    padding: 10px 0px;
+  }
+  .agents_section_left_content {
+    text-align: center;
+  }
+  .agents_section_right_content {
+    padding: 10px 0px;
+    margin: 50px 22px;
+  }
+  .agents_section_content_agents_container .btn_border {
+    margin-left: unset;
+    margin: auto;
+  }
+  .agents_section_content_agents_container .primary_btn {
+    padding: 5px 50px;
+  }
+
+  .maps_section_bg_3 {
+    left: 0%;
+  }
+  .maps_section_left_content {
+    width: 60%;
+  }
+  .maps_section_left_content {
+    padding-top: 20px;
+  }
+  .maps_section_header {
+    font-size: 90px;
+    line-height: 65px;
+  }
+  .maps_section_title {
+    margin: 15px 0;
+  }
+  .maps_section_para {
+    margin-bottom: 25px;
+  }
+  .maps_section_bg_2_image {
+    width: 149%;
+  }
+  .footer_top {
+    padding: 10px;
+  }
+  .footer_top a {
+    display: block;
+    width: fit-content;
+    margin: auto;
+  }
+  .footer_bottom_rights_container {
+    width: 80%;
+  }
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 575px) {
+  .hero_section_content_container::after {
+    content: unset;
+  }
+  .hero_section .video_container {
+    height: 80vw;
+  }
+  .hero_section_video {
+    width: 140%;
+    object-position: -96px -36px;
+  }
+  .hero_section_content_image_container {
+    margin: 35px auto;
+    width: 65%;
+  }
+  .news_section::before {
+    left: -61px;
+  }
+  .news_section_container_background span {
+    font-size: 9rem;
+  }
+  .news_section_container_points::before {
+    left: 40%;
+  }
+  .news_section_container_points::after {
+    right: 40%;
+  }
+
+  .dimension_section .main_container::before {
+    bottom: 12px;
+  }
+  .dimension_section .line {
+    bottom: 17px;
+    left: 42%;
+  }
+  .dimension_section_content_container {
+    margin-left: 12px;
+  }
+  .dimension_section_content_para {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .dimension_section_content_header {
+    font-size: 50px;
+    margin: 0px 0px 15px;
+  }
+  .dimension_section_content_dimension_container .primary_btn {
+    padding: 1px 10px;
+    font-size: 13px;
+  }
+  .weAre_section_header_container {
+    margin-left: 10px;
+    padding-top: 0px;
+  }
+  .weAre_section_header_container::after {
+    top: 60px;
+  }
+  .weAre_section_header {
+    font-size: 50px;
+    line-height: unset;
+  }
+  .weAre_section_content_container {
+    padding: 0px;
+  }
+  .agents_section_right_content {
+    margin: 30px 14px;
+  }
+  .maps_section .main_container {
+    padding: 40px 0px 0px;
+  }
+  .maps_section_bg_3 {
+    display: none;
+  }
+  .maps_section_bg {
+    font-size: 125px;
+  }
+  .maps_section_left_content {
+    padding-top: 0px;
+    width: 100%;
+  }
+  .maps_section_header {
+    font-size: 100px;
+    line-height: 72px;
+  }
+  .maps_section_title {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .maps_section_content_maps_container .btn_border {
+    margin: auto;
+  }
+  .maps_section_content_maps_container .primary_btn {
+    padding: 5px 50px;
+  }
+  .maps_section_bg_2 {
+    display: none;
+    top: -19px;
+    width: 159%;
+  }
+  .maps_section_bg_2_image {
+    width: 160%;
+  }
+  .maps_section_bg_2_bottom {
+    display: unset;
+  }
+  .maps_section_bg_2_image_bottom {
+    margin: 25px 5px;
+    border: 8px solid var(--red);
+  }
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 375px) {
+  .hero_section .video_container {
+    height: 130vw;
+  }
+  .hero_section_video {
+    width: 177%;
+    object-position: -139px 1px;
+  }
+  .hero_section_content_para {
+    font-size: 13px;
+  }
+  .hero_section_content_image_container {
+    margin: 40px auto;
+    width: 90%;
+  }
+  .news_section_container_background span {
+    font-size: 76px;
+    line-height: 133px;
+  }
+  .dimension_section {
+    background-position: 50% 16%;
+  }
+  .dimension_section .main_container {
+    padding: 145px 0px !important;
+  }
+  .weAre_section_header_container::after {
+    content: unset;
+  }
+  .weAre_section_header {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .weAre_section_content_left .weAre_section_content_left_header {
+    margin-bottom: 5px;
+  }
+  .weAre_section_content_left .weAre_section_content_left_para {
+    margin-bottom: 25px;
+  }
+  .weAre_section_content_right_video_container::before {
+    top: 17px;
+    left: -12px;
+    padding: 2px 9px;
+    font-size: 10px;
+  }
+  .agents_section_right_content {
+    padding: 0;
+    margin: 30px 7px;
+  }
+  .agents_section_header {
+    font-size: 60px;
+    line-height: 55px;
+  }
+  .agents_section_title {
+    margin: 3px 0;
+    font-size: 16px;
+  }
+  .maps_section .main_container {
+    padding: 40px 10px 0px;
+  }
+  .maps_section_header {
+    font-size: 60px;
+    line-height: 55px;
+  }
+  .maps_section_title {
+    font-size: 16px;
+    margin: 12px 0;
+  }
+  .maps_section_bg_2_image_bottom {
+    border: 4px solid var(--red);
+  }
+  .footer_bottom_terms_container div a {
+    display: block;
+    width: fit-content;
+    margin: auto;
+  }
+}

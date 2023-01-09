@@ -8,6 +8,7 @@
 		<title>Document</title>
 		<link rel="stylesheet" href="assets/constants.css">
 		<link rel="stylesheet" href="assets/style.css">
+		<link rel="stylesheet" href="assets/media.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
 			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -20,43 +21,37 @@
 
 	<body>
 		<header id="header">
-			<nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid py-0 px-4">
 					<a class="navbar-brand d-inline-block text-center" href="#">
 						<img src="assets/images/originalGame/Logo_Thump.png">
 					</a>
-					<button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas"
-						data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+					<button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+						aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
-						aria-labelledby="offcanvasNavbarLabel">
-						<div class="offcanvas-header">
-							<h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-						</div>
-						<div class="offcanvas-body">
-							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-								<li class="nav-item">
-									<a class="nav-link" aria-current="page" href="#news_section">latest news</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#dimension_section">dimension</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#weAre_section">we are</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#agents_section">agents</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#maps_section">maps</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#footer_bottom">download</a>
-								</li>
-							</ul>
-						</div>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#news_section">latest news</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#dimension_section">dimension</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#weAre_section">we are</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#agents_section">agents</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#maps_section">maps</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#footer_bottom">download</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</nav>
@@ -64,22 +59,13 @@
 		<main>
 			<section class="hero_section bg-dark">
 				<div class="video_container">
-					<!-- <video class="hero_section_video" autoplay loop muted>
-						<source src="assets/videos/hero-section-video.mp4">
-					</video> -->
 					<img class="hero_section_video" src="assets/images/originalGame/hero-section.jpg">
 				</div>
 				<div class="main_container hero_section_content_container text-center">
 					<p class="hero_section_content_para fw-bold m-0 p-0">A 5v5 character-based tactical
 						shooter</p>
 					<div class="hero_section_content_image_container">
-						<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 98.9">
-							<path
-								d="M615.11 19.15h24.69l.08 75.59c0 .97.79 1.77 1.77 1.77l14.14-.01c.98 0 1.77-.79 1.77-1.77l-.08-75.58h30.96c.91 0 1.43-1.06.85-1.77l-10.6-13.26a4.68 4.68 0 0 0-3.65-1.76h-59.93c-.98 0-1.77.79-1.77 1.77v13.26c0 .96.79 1.76 1.77 1.76M19.25 94.75 91.67 4.13c.57-.71.06-1.77-.85-1.77H72.71c-1.42 0-2.77.65-3.65 1.76L17.68 68.4V4.12c0-.98-.79-1.77-1.77-1.77H1.77C.79 2.35 0 3.14 0 4.12v90.62c0 .98.79 1.77 1.77 1.77H15.6c1.42 0 2.76-.65 3.65-1.76m51.06 0 24.91-31.17 24.91 31.17a4.685 4.685 0 0 0 3.66 1.76h13.83c.98 0 1.77-.79 1.77-1.77V4.12c0-.97-.79-1.77-1.77-1.77h-11.6c-2.84 0-5.53 1.29-7.31 3.51L47.69 94.73c-.57.71-.06 1.77.85 1.77h18.11c1.43.01 2.77-.64 3.66-1.75m51.39-66.21v41.75l-16.68-20.87 16.68-20.88zm404.37 66.19L453.65 4.11A4.68 4.68 0 0 0 450 2.35h-13.84c-.98 0-1.77.79-1.77 1.77v90.62c0 .98.79 1.77 1.77 1.77h13.83c1.42 0 2.77-.65 3.65-1.76l24.91-31.17 24.91 31.17a4.68 4.68 0 0 0 3.65 1.76h18.11c.91 0 1.42-1.06.85-1.78m-57.33-45.31L452.05 70.3V28.54l16.69 20.88zM269.45 0c-27.3 0-49.43 22.13-49.43 49.43s22.13 49.43 49.43 49.43 49.43-22.13 49.43-49.43C318.89 22.13 296.75 0 269.45 0m0 82.06c-17.54 0-31.75-14.61-31.75-32.63 0-18.02 14.21-32.64 31.75-32.64S301.2 31.4 301.2 49.43c.01 18.02-14.21 32.63-31.75 32.63M583.38 4.12V68.4L532 4.11a4.68 4.68 0 0 0-3.65-1.76H514.5c-.97 0-1.77.79-1.77 1.77v43.67c0 1.06.36 2.09 1.03 2.92l14.71 18.41c.65.81 1.95.35 1.95-.68v-38l51.39 64.31a4.68 4.68 0 0 0 3.65 1.76h13.83c.98 0 1.77-.79 1.77-1.77V4.12c0-.97-.79-1.77-1.77-1.77h-14.14c-.98 0-1.77.8-1.77 1.77M410.62 23.76V4.12c0-.98-.79-1.77-1.77-1.77h-72.37c-.98 0-1.77.79-1.77 1.77v90.62c0 .98.79 1.77 1.77 1.77h14.14c.98 0 1.77-.79 1.77-1.77V19.16h40.55l-27.37 34.26c-.51.64-.51 1.56 0 2.21l31.27 39.13a4.68 4.68 0 0 0 3.65 1.76h18.11c.91 0 1.42-1.06.85-1.77l-32.14-40.21 22.28-27.84c.66-.85 1.03-1.88 1.03-2.94M162.39 96.51h41.96c1.42 0 2.77-.65 3.65-1.76l10.6-13.27c.57-.71.06-1.77-.85-1.77H178.3V4.12c0-.98-.79-1.77-1.77-1.77h-14.14c-.98 0-1.77.79-1.77 1.77v90.62c0 .97.8 1.77 1.77 1.77">
-							</path>
-						</svg> -->
 						<img class="hero_section_name_logo" src="assets/images/originalGame/game-name.png">
-
 					</div>
 					<div class="hero_section_content_playBtn_container">
 						<div class="btn_border">
@@ -96,6 +82,7 @@
 					<div class="news_section_container_points"></div>
 					<div class="main_container">
 						<div class="news_section_container_header">
+							<h2 class="news_header text-uppercase">the latest</h2>
 							<a class="news_anchor text-decoration-none text-uppercase" href="#" title="to news">go to
 								news page
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 15" width="20" height="20">
@@ -105,7 +92,6 @@
 									</path>
 								</svg>
 							</a>
-							<h2 class="news_header text-uppercase">the latest</h2>
 						</div>
 						<div class="news_section_container_content">
 							<div class="swiper mySwiper">
@@ -188,6 +174,7 @@
 									</div>
 								</div>
 							</div>
+							<div class="swiper-pagination"></div>
 						</div>
 					</div>
 				</div>
@@ -214,8 +201,8 @@
 						<h2 class="weAre_section_header text-uppercase">we are pyromancer</h2>
 					</div>
 					<div class="weAre_section_content_container">
-						<div class="row justify-content-end m-0 p-0">
-							<div class="col-3">
+						<div class="row justify-content-between m-0 p-0">
+							<div class="col-12 col-md col-lg-4">
 								<div class="weAre_section_content_left">
 									<h3 class="weAre_section_content_left_header text-uppercase">defy
 										the limits</h3>
@@ -236,7 +223,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-7">
+							<div class="col-12 col-md col-lg-7">
 								<div class="weAre_section_content_right">
 									<div class="boxes">
 										<span class="box"></span>
@@ -256,14 +243,16 @@
 			</section>
 			<section class="agents_section" id="agents_section">
 				<div class="agents_section_top_bg" id="agents_section_top_bg"></div>
-				<img src="assets/images/originalGame/AGENTS.png" title="agents_section_left_image"
-					class="agents_section_left_image" id="agents_section_left_image">
+
 				<div class="main_container">
 					<div class="row justify-content-between m-0 p-0">
-						<div class="col">
-							<div class="agents_section_left_content"></div>
+						<div class="col-12 col-md p-0">
+							<div class="agents_section_left_content">
+								<img src="assets/images/originalGame/AGENTS.png" title="agents_section_left_image"
+									class="agents_section_left_image" id="agents_section_left_image">
+							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-12 col-md-4">
 							<div class="agents_section_right_content">
 								<h2 class="agents_section_header text-uppercase">your agents
 								</h2>
@@ -322,6 +311,9 @@
 									maps</a>
 							</div>
 						</div>
+					</div>
+					<div class="maps_section_bg_2_bottom">
+						<img class="maps_section_bg_2_image_bottom" src="assets/images/originalGame/maps_2.png">
 					</div>
 				</div>
 			</section>
