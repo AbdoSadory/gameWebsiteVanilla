@@ -1,9 +1,9 @@
 @media (max-width: 1200px) {
-  .hero_section_content_playBtn_container .primary_btn {
-    padding: 10px 75px;
-  }
   header .navbar-brand img {
     width: 80px;
+  }
+  .hero_section_content_playBtn_container .primary_btn {
+    padding: 10px 75px;
   }
   .hero_section_content_image_container {
     margin: 35px auto;
